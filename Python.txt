@@ -1,0 +1,860 @@
+----------1-\n" to enter the statement in new line for e.g = print("Empire shall rise again\n"
+      "Evil will be demolished by believers\n"
+      "World would be divided into believers and disbelievers\n"
+      "Every tongue must confess greatness of the creator\n"
+      "Every heart must bear the love of the creator\n"
+      "All hail GOD")
+2-To Highlight a comment in Python language use # or shortcut (control+forward slash\) for e.g :# 2nd day of learning and we can also use triple line seqeunce ('''value''')
+3-To enter a number variable (") arent required for e.g :print (5)
+4-To multiply numbers in Python (*) is used for division (/) for e.g :print (10*9)
+5-To enter two lines of code in same statement of print we can use (,) for e.g :print ("hello \"bitches\" ,3 ,9" , sep="!", end="<3\n")
+6-To separate two lines of code in same statement through a particuler value we use (sep="value") for e.g :print ("hello \"bitches\" ,3 ,9" , sep="!", end="<3\n")
+7-To end a line with any particular same value we use (end="value\n")
+8-To use double line sequence or any particular character to only that specific word -in a sentence or statement we use back slash(\) for e.g :print ("hello \"bitches\" ,3 ,9" , sep="!", end="<3\n")
+9-To save a code in a variable we can use (=) for e.g :a=1 b=True c="Harry" d=None {Variable is like a container that holds data}
+10-Data type specifies the type of value a variable holds. This is required in programming to do various operations without causing an error.
+11-In python, we can print the type of any operator using type function: for e.g :print ("the type of a is", type(a))
+12-Imagine a variable is like a box. The data type is like a label on the box that tells you what kind of stuff you can put inside.
+A box labeled "Numbers" might hold things like 10, 3.14, or -50.
+A box labeled "Text" might hold things like "Hello world!" or "This is a sentence."
+In Python, the type function is like peeking inside the box and seeing the label. It helps you make sure you're using the right kind of stuff for your calculations and tasks.: for e.g :a = 1
+print(type(a))
+b = "1"
+print(type(b))
+13-int: 3, -8, 0
+-float: 7.349, -9.0, 0.0000001
+-complex: 6 + 2i
+-str: "Hello World!!!", "Python Programming"
+-Boolean data consists of values True or False.
+14-Imagine a list is like a box of colorful candies. Here's how it works:
+Ordered collection: The candies aren't just thrown in all together. They are lined up in a specific order, just like you might have red candies first, then yellow, and so on.
+Data: Each candy is a piece of information, in this case, the information is the color of the candy (the data).
+Separated by commas: Think of the candies being separated by small walls inside the box, like how commas separate words in a sentence.
+Enclosed within square brackets: The box itself is like the square brackets [], holding all the colorful candies inside.
+Mutable: This is the fun part! You can change the candies in the box even after you make it. Want to add some green candies? No problem! You can open the box (the list) and put them in. Ate a red candy? You can take it out and maybe put in a different one.
+List is a collection of different data elements. for e.g :list1 = [8, 2.3, [-4, 5], ["apple", "banana"]]
+print(list1)
+15-Imagine a tuple in Python like a fruit basket. Here's how it works:
+Ordered collection: The fruits in the basket are arranged in a specific order, just like you might have apples first, then oranges, and then bananas.
+Data: Each fruit is a piece of information, in this case, the information is the type of fruit (the data).
+Separated by commas: Think of the fruits being placed next to each other in the basket, like how commas separate words in a sentence.
+Enclosed within parentheses: The basket itself is like the parentheses (), holding all the delicious fruits inside.
+Immutable: This is the key difference between a list and a tuple. Once you put the fruits in the basket (create the tuple), you can't take them out or add new ones. It's like a fixed collection of items.
+for e.g :tuple1 = (("parrot", "sparrow"), ("Lion", "Tiger"))
+print(tuple1)
+16-Imagine a dictionary in Python is like a special kind of box for your favorite things. Here's how it works:
+Unordered collection: The things in your box aren't in any order, just like a dictionary doesn't care about order. You might have a toy car next to a sticker.
+Data: Each item in your box has two parts:
+Label: This is like a nickname for your item, like "Mcqueen" for your toy car. (This is the key in a dictionary)
+Thing: The actual item itself, like the toy car itself. (This is the value in a dictionary)
+Key-value pairs: We call these "label-thing" pairs together. The "label" (key) helps you find the "thing" (value) you want, just like you might say "Mcqueen" to find your toy car.
+Enclosed within curly brackets: The curly braces {} act like the box itself, holding all your favorite things (label-thing pairs) inside.
+So, to find something in your box (the value), you just need to remember its nickname (the key). You look in the box (the curly brackets) and find the right label (the key) to get the thing you want (the value).
+For e.g :dict1 = {"name":"Sakshi", "age":20, "canVote":True}
+print(dict1)
+17-In python everything is a object
+18-In python we use this symbol for following purposes
+-For addition (+) for e.g :5+10
+-For subtraction (-) for e.g :10-5
+-For multiplication (*) for e.g :10*5
+-For exponential (**) for e.g :3**5
+-For Division (/) for e.g :10/2
+-For Modulus{Out of} or Remainder(%) for e.g :15%3
+-For Floor Division {Gives value without point a approx} (//) for e.g :15//7
+19-In Pyhton there is 2 types of TypeCasting
+(a)Explicit Conversion:Imagine you have a box of Legos and a box of building blocks. They're both for building things, but they don't fit together perfectly.
+Explicit type conversion is like forcing the Legos and blocks to work together. You, the programmer, decide to take a Lego (one type of data) and say "Hey, this should actually be a building block!" (changing it to another type of data).
+This can be useful if you need the Lego for a part that only works with blocks, but you have to be careful. Sometimes the Lego won't fit perfectly in the block slot, and things might not work right.
+So, explicit type conversion lets you change data types on purpose, but be sure it will work before you do it! For e.g :string = "15"
+number = 7
+string_number = int(string) #throws an error if the string is not a valid integer
+sum= number + string_number
+print("The Sum of both the numbers is: ", sum)
+(b)Implicit type casting:
+Imagine you're working in a bakery. You have ingredients of different sizes: big bowls of flour (like numbers), smaller cups of sugar (like decimals), and maybe even teaspoons of spices (like short text).
+Normally, you wouldn't mix bowls of flour with teaspoons of spice directly in your recipe. It can get messy!
+But what if you need to add a tiny bit of spice to a big batch of dough? That's where implicit type casting comes in.
+In Python, when you use different ingredients (data types) together, Python automatically adjusts things to make it work. It might take a small amount (like the teaspoon of spice) and pretend it's a bigger amount (like a sprinkle from a larger container) so you can mix it all together in your recipe (perform the operation).
+This way, Python avoids throwing away any ingredients (losing data) and lets you bake your code without a mess!
+However, just like with real baking, it's good to know what ingredients you're using to avoid any surprises. Be aware that implicit casting might happen, so your code works as expected! For e.g :# Python automatically converts
+# a to int
+a = 7
+print(type(a))
+ # Python automatically converts b to float
+b = 3.0
+print(type(b))
+ # Python automatically converts c to float as it is a float addition
+c = a + b
+print(c)
+print(type(c))
+20-Imagine you're having a conversation with your computer program.
+You (the user) can type in information or answers.
+The input() function in Python acts like a way for your program to ask you questions.
+Here's how it works:
+The program displays a message (optional).
+You can use input("What is your name? ") to prompt the user with "What is your name? ".
+You type in your response.
+You might enter "Alice".
+The program stores your response as a string.
+The value "Alice" is captured as a string (text).
+Think of a string as a collection of letters, numbers, or symbols.
+The input() function doesn't understand numbers or other data types automatically. It always returns everything as a string.
+To use the information you provide:
+You need to assign the returned string to a variable.
+In this example, you could use name = input("What is your name? "). This stores the user's name in the variable name.
+Example:
+Python
+name = input("What is your name? ")
+age = input("How old are you? ")  # You'll still get a string here
+print("Hello,", name, "!")  # Use the stored variable
+21-We can find the length of a string using len() function e.g :fruit = "Mango"
+len1 = len(fruit)
+print("Mango is a", len1, "letter word.")
+22-A string is essentially a sequence of characters also called an array. Thus we can access the elements of this array.
+pie = "ApplePie"
+print(pie[:5])
+print(pie[6])	#returns character at specified index
+OUTPUT:Apple
+1
+23-While using numbers for finding selective length in Python doesnt count the last digit and neglects it but it does count the first digit and count till last digit but not the last digit itself
+23-Strings are immutable
+24-The upper() method converts a string to upper case.For e.g :str1 = "AbcDEfghIJ"
+print(str1.upper())
+Output : ABCDEFGHIJ
+24-The lower() method converts a string to lower case.For e.g :str1 = "AbcDEfghIJ"
+print(str1.lower())
+Output : abcdefghij 
+25-The strip() method removes any white spaces before and after the string.For e.g :str2 = " Silver Spoon "
+print(str2.strip)
+Output : Silver Spoon
+26-the rstrip() removes any trailing characters.For e.g :str3 = "Hello !!!"
+print(str3.rstrip("!"))
+Output : Hello
+27-The replace() method replaces all occurences of a string with another string.For e.g :str2 = "Silver Spoon"
+print(str2.replace("Sp", "M"))
+Output:Silver Moon
+28-The split() method splits the given string at the specified instance and returns the separated strings as list items.For e.g :str2 = "Silver Spoon"
+print(str2.split(" "))      #Splits the string at the whitespace " ".
+Output : ['Silver', 'Spoon']
+There are various other string methods that we can use to modify our strings.
+29-The capitalize() method turns only the first character of the string to uppercase and the rest other characters of the string are turned to lowercase. The string has no effect if the first character is already uppercase.For e.g :str1 = "hello"
+capStr1 = str1.capitalize()
+print(capStr1)
+
+str2 = "hello WorlD"
+capStr2 = str2.capitalize()
+print(capStr2)
+Output : Hello
+Hello world
+30-The center() method aligns the string to the center as per the parameters given by the user.For e.g :str1 = "Welcome to the Console!!!"
+print(str1.center(50))
+Output :             Welcome to the Console!!!
+EX 2: str1 = "Welcome to the Console!!!"
+print(str1.center(50, ".")) 
+Output : ............Welcome to the Console!!!.............
+31-The count() method returns the number of times the given value has occurred within the given string.For e.g :str2 = "Abracadabra"
+countStr = str2.count("a")
+print(countStr)
+Output : 4
+32-The endswith() method checks if the string ends with a given value. If yes then return True, else return False.For e.g :str1 = "Welcome to the Console !!!"
+print(str1.endswith("!!!"))
+Output : True
+EX 2:str1 = "Welcome to the Console !!!"
+print(str1.endswith("to", 4, 10))
+Output : True
+33-The find() method searches for the first occurrence of the given value and returns the index where it is present. If given value is absent from the string then return -1.For e.g :str1 = "He's name is Dan. He is an honest man."
+print(str1.find("is"))
+Output : 10
+EX 2:str1 = "He's name is Dan. He is an honest man."
+print(str1.find("Daniel"))
+Output : -1
+34-The index() method searches for the first occurrence of the given value and returns the index where it is present. If given value is absent from the string then raise an exception.For e.g :str1 = "He's name is Dan. Dan is an honest man."
+print(str1.index("Dan"))
+Output : 13
+EX 2 :str1 = "He's name is Dan. Dan is an honest man."
+print(str1.index("Daniel"))
+Output : ValueError: substring not found
+35-The isalnum() method returns True only if the entire string only consists of A-Z, a-z, 0-9. If any other characters or punctuations are present, then it returns False.For e.g :str1 = "WelcomeToTheConsole"
+print(str1.isalnum())
+Output : True
+36-The isalpha() method returns True only if the entire string only consists of A-Z, a-z. If any other characters or punctuations or numbers(0-9) are present, then it returns False.For e.g :str1 = "Welcome"
+print(str1.isalpha())
+Output : True
+37-The islower() method returns True if all the characters in the string are lower case, else it returns False.For e.g :str1 = "hello world"
+print(str1.islower())
+Output : True
+38-The isprintable() method returns True if all the values within the given string are printable, if not, then return False.For e.g :str1 = "We wish you a Merry Christmas"
+print(str1.isprintable())
+Output : True
+39-The isspace() method returns True only and only if the string contains white spaces, else returns False.For e.g :str1 = "        "       #using Spacebar
+print(str1.isspace())
+str2 = "        "       #using Tab
+print(str2.isspace())
+Output : True
+True
+40-The istitle() returns True only if the first letter of each word of the string is capitalized, else it returns False.For e.g :str1 = "World Health Organization" 
+print(str1.istitle())
+Output : True
+EX 2 :str2 = "To kill a Mocking bird"
+print(str2.istitle())
+Output : False
+41-The isupper() method returns True if all the characters in the string are upper case, else it returns False.For e.g :str1 = "WORLD HEALTH ORGANIZATION" 
+print(str1.isupper())
+Output : True
+42-The startswith() method checks if the string starts with a given value. If yes then return True, else return False.For e.g :str1 = "Python is a Interpreted Language" 
+print(str1.startswith("Python"))
+Output : True
+43-The swapcase() method changes the character casing of the string. Upper case are converted to lower case and lower case to upper case.For e.g :str1 = "Python is a Interpreted Language" 
+print(str1.swapcase())
+Output : pYTHON IS A iNTERPRETED lANGUAGE
+44-The title() method capitalizes each letter of the word within the string.For e.g :str1 = "He's name is Dan. Dan is an honest man."
+print(str1.title())
+Output : He'S Name Is Dan. Dan Is An Honest Man.
+45-For time we use (time.strftime):
+.%H for 24-hour clock.
+.%I for 12-hour clock.
+.%m for month as a decimal number [01,12].
+.%w for weekday as a decimal number [0(Sunday),6].
+.%j for day of the year as a decimal number [001,366].
+.%y for year without century as a decimal number [00,99].
+.%Y for year with century as a decimal number.
+.%a for locale’s abbreviated weekday name.
+.%A for locale’s full weekday name.
+.%b for locale’s abbreviated month name.
+.%B for locale’s full month name.
+.%c for locale’s appropriate date and time representation.
+.%d for day of the month as a decimal number [01,31].
+.%f for microseconds as a decimal number [000000,999999].
+45-Sometimes a programmer wants to execute a group of statements a certain number of times. This can be done using loops. Based on this loops are further classified into following main types;
+.for loop
+.while loop
+(a)In Python, for loops are a powerful tool for working with sequences of items.  Imagine a sequence as a line of objects, like a string of beads. A for loop allows you to go through each bead one by one and perform an action on it.
+The cool thing about for loops is that they can work with many different types of sequences in Python, not just lists. This includes things like:
+Lists: Ordered collections of items, like shopping lists.
+Strings: Sequences of characters, like sentences.
+Tuples: Ordered collections similar to lists, but they can't be changed after they are created.
+Sets: Unordered collections of unique items, like collections of unique playing cards in a deck.
+Dictionaries: Collections of key-value pairs, like a phone book with names and phone numbers.
+By using a for loop, you can easily write Python code that efficiently works with each item in these sequences, one at a time. This saves you time and effort compared to writing out repetitive code for each item.
+For e.g :name = 'Abhishek'
+for i in name:
+    print(i, end=", ")
+OUTPUT : A, b, h, i, s, h, e, k,
+EX 2 :colors = ["Red", "Green", "Blue", "Yellow"]
+for x in colors:
+    print(x)
+OUTPUT : Red
+Green
+Blue
+Yellow
+(b)Imagine you have a chore you need to do, but instead of a list of chores, you just need to do it a specific number of times. That's where range() comes in with for loops!
+Here's how it works:
+Setting the counter:  Think of range() like a special machine that counts for you. You tell it how many times you want to loop, and it creates a sequence of numbers from 0 (like starting at the first chore) up to, but not including, that number.
+Looping with for loop:  The for loop uses a variable, like i in our code, to take on each number in the sequence created by range().  So, if you tell range() to count 5 times, the loop will run 5 times with i being 0, 1, 2, 3, and 4 in each turn.
+Doing your chore:  Inside the loop, you put the code for your chore. This code will run for each value of i.
+For e.g :for k in range(5):
+    print(k)
+OUTPUT : 0
+1
+2
+3
+4
+Here, we can see that the loop starts from 0 by default and increments at each iteration.
+EX 2:for k in range(4,9):
+    print(k)
+OUTPUT : 4
+5
+6
+7
+8
+46-(a)Python while Loop execute statements while the condition is True. As soon as the condition becomes False, the interpreter comes out of the while loop.
+For e.g :count = 5
+while (count > 0):
+  print(count)
+  count = count - 1
+OUTPUT : 5
+4
+3
+2
+1
+(b)We can even use the else statement with the while loop. Essentially what the else statement does is that as soon as the while loop condition becomes False, the interpreter comes out of the while loop and the else statement is executed.
+For e.g :x = 5
+while (x > 0):
+    print(x)
+    x = x - 1
+else:
+    print('counter is 0')
+OUTPUT : 5
+4
+3
+2
+1
+counter is 0
+(c)To create a do while loop in Python, you need to modify the while loop a bit in order to get similar behavior to a do while loop.
+The most common technique to emulate a do-while loop in Python is to use an infinite while loop with a break statement wrapped in an if statement that checks a given condition and breaks the iteration if that condition becomes true:
+For e.g :while True:
+  number = int(input("Enter a positive number: "))
+  print(number)
+  if not number > 0:
+    break
+OUTPUT : Enter a positive number: 1
+1
+Enter a positive number: 4
+4
+Enter a positive number: -1
+-1
+EXPLANATION : This loop uses True as its formal condition. This trick turns the loop into an infinite loop. Before the conditional statement, the loop runs all the required processing and updates the breaking condition. If this condition evaluates to true, then the break statement breaks out of the loop, and the program execution continues its normal path.
+47-The break statement enables a program to skip over a part of the code. A break statement terminates the very loop it lies within.
+For e.g :for i in range(1,101,1):
+    print(i ,end=" ")
+    if(i==50):
+        break
+    else:
+        print("Mississippi")
+print("Thank you")
+OUTPUT : 1 Mississippi
+2 Mississippi
+3 Mississippi
+4 Mississippi
+5 Mississippi
+.
+.
+.
+50 Mississippi
+48-The continue statement skips the rest of the loop statements and causes the next iteration to occur.
+For e.g :for i in [2,3,4,6,8,0]:
+    if (i%2!=0):
+        continue
+    print(i)
+OUTPUT : 2
+4
+6
+8
+0
+48-A function is a block of code that performs a specific task whenever it is called. In bigger programs, where we have large amounts of code, it is advisable to create or use existing functions that make the program flow organized and neat.
+There are two types of functions:
+.Built-in functions:These functions are defined and pre-coded in python. Some examples of built-in functions are as follows:
+min(), max(), len(), sum(), type(), range(), dict(), list(), tuple(), set(), print(), etc.
+.User-defined functions:We can create functions to perform specific tasks as per our needs. Such functions are called user-defined functions.
+For e.g :def function_name(parameters):
+  pass
+  # Code and Statements
+>Create a function using the def keyword, followed by a function name, followed by a paranthesis (()) and a colon(:).
+>Any parameters and arguments should be placed within the parentheses.
+>Rules to naming function are similar to that of naming variables.
+>Any statements and other code within the function should be indented.
+49-Each item/element in a list has its own unique index. This index can be used to access any particular item from the list. The first item has index [0], second item has index [1], third item has index [2] and so on.
+For e.g :colors = ["Red", "Green", "Blue", "Yellow", "Green"]
+#          [0]      [1]     [2]      [3]      [4]
+There are 2 types of index in a lsit 
+-Positive Indexing:
+-Negative Indexing:
+50-You can print a range of list items by specifying where you want to start, where do you want to end and if you want to skip elements in between the range.
+51-List comprehensions are used for creating new lists from other iterables like lists, tuples, dictionaries, sets, and even in arrays and strings.
+Syntax:
+List = [Expression(item) for item in iterable if Condition]
+Expression: It is the item which is being iterated.
+Iterable: It can be list, tuples, dictionaries, sets, and even in arrays and strings.
+Condition: Condition checks if the item should be added to the new list or not.
+Example 1:
+names = ["Milo", "Sarah", "Bruno", "Anastasia", "Rosa"]
+namesWith_O = [item for item in names if "o" in item]
+print(namesWith_O)
+Output :
+['Milo', 'Bruno', 'Rosa']
+Example 2:  
+names = ["Milo", "Sarah", "Bruno", "Anastasia", "Rosa"]
+namesWith_O = [item for item in names if (len(item) > 4)]
+print(namesWith_O)
+Output :['Sarah', 'Bruno', 'Anastasia']
+52-(i)list.sort()
+This method sorts the list in ascending order. The original list is updated
+Ex1:colors = ["voilet", "indigo", "blue", "green"]
+colors.sort()
+print(colors)
+num = [4,2,5,3,6,1,2,1,2,8,9,7]
+num.sort()
+print(num)
+Output:['blue', 'green', 'indigo', 'voilet']\
+[1, 1, 2, 2, 2, 3, 4, 5, 6, 7, 8, 9]
+What if you want to print the list in descending order?
+We must give reverse=True as a parameter in the sort method.
+colors = ["voilet", "indigo", "blue", "green"]
+colors.sort(reverse=True)
+print(colors)
+num = [4,2,5,3,6,1,2,1,2,8,9,7]
+num.sort(reverse=True)
+print(num)
+Output:['voilet', 'indigo', 'green', 'blue']
+[9, 8, 7, 6, 5, 4, 3, 2, 2, 2, 1, 1]
+The reverse parameter is set to False by default.
+Note: Do not mistake the reverse parameter with the reverse method.
+(ii)reverse()
+This method reverses the order of the list.
+EX1:colors = ["voilet", "indigo", "blue", "green"]
+colors.reverse()
+print(colors)
+num = [4,2,5,3,6,1,2,1,2,8,9,7]
+num.reverse()
+print(num)
+Output:['green', 'blue', 'indigo', 'voilet']
+[7, 9, 8, 2, 1, 2, 1, 6, 3, 5, 2, 4]
+(iii)index()
+This method returns the index of the first occurrence of the list item.
+EX1:colors = ["voilet", "green", "indigo", "blue", "green"]
+print(colors.index("green"))
+num = [4,2,5,3,6,1,2,1,3,2,8,9,7]
+print(num.index(3))
+Output:1
+3
+(iv)count()
+Returns the count of the number of items with the given value.
+EX1:colors = ["voilet", "green", "indigo", "blue", "green"]
+print(colors.count("green"))
+num = [4,2,5,3,6,1,2,1,3,2,8,9,7]
+Output:2
+3
+(v)copy()
+Returns copy of the list. This can be done to perform operations on the list without modifying the original list.
+EX1:colors = ["voilet", "green", "indigo", "blue"]
+newlist = colors.copy()
+print(colors)
+print(newlist)
+Output:['voilet', 'green', 'indigo', 'blue']
+['voilet', 'green', 'indigo', 'blue']
+(vi)append():
+This method appends items to the end of the existing list.
+EX1:colors = ["voilet", "indigo", "blue"]
+colors.append("green")
+print(colors)
+Output:['voilet', 'indigo', 'blue', 'green']
+(vii)insert():
+This method inserts an item at the given index. User has to specify index and the item to be inserted within the insert() method.
+EX1:colors = ["voilet", "indigo", "blue"]
+#           [0]        [1]      [2]
+colors.insert(1, "green")   #inserts item at index 1
+# updated list: colors = ["voilet", "green", "indigo", "blue"]
+#       indexs              [0]       [1]       [2]      [3]
+print(colors)
+Output:['voilet', 'green', 'indigo', 'blue']
+(viii)extend():
+This method adds an entire list or any other collection datatype (set, tuple, dictionary) to the existing list.
+EX1:#add a list to a list
+colors = ["voilet", "indigo", "blue"]
+rainbow = ["green", "yellow", "orange", "red"]
+colors.extend(rainbow)
+print(colors)
+Output:['voilet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red']
+(ix)Concatenating two lists:
+You can simply concatenate two lists to join two lists.
+EX1:colors = ["voilet", "indigo", "blue", "green"]
+colors2 = ["yellow", "orange", "red"]
+print(colors + colors2)
+Output:['voilet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red']
+52.Tuples are ordered collection of data items. They store multiple items in a single variable. Tuple items are separated by commas and enclosed within round brackets (). Tuples are unchangeable meaning we can not alter them after creation.
+EX1:
+tuple1 = (1,2,2,3,5,4,6)
+tuple2 = ("Red", "Green", "Blue")
+print(tuple1)
+print(tuple2)
+OUTPUT:(1, 2, 2, 3, 5, 4, 6)
+('Red', 'Green', 'Blue')
+53.Each item/element in a tuple has its own unique index. This index can be used to access any particular item from the tuple. The first item has index [0], second item has index [1], third item has index [2] and so on.
+EX1:country = ("Spain", "Italy", "India",)
+#            [0]      [1]      [2]
+54.We can check if a given item is present in the tuple. This is done using the in keyword.
+EX1:country = ("Spain", "Italy", "India", "England", "Germany")
+if "Germany" in country:
+    print("Germany is present.")
+else:
+    print("Germany is absent.")
+OUTPUT:Germany is present.
+55.You can print a range of tuple items by specifying where do you want to start, where do you want to end and if you want to skip elements in between the range.
+EX1:
+animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
+print(animals[3:7])     #using positive indexes
+print(animals[-7:-2])   #using negative indexes
+OUTPUT:
+('mouse', 'pig', 'horse', 'donkey')
+('bat', 'mouse', 'pig', 'horse', 'donkey')
+56.Tuples are immutable, hence if you want to add, remove or change tuple items, then first you must convert the tuple to a list. Then perform operation on that list and convert it back to tuple.
+EX1:
+countries = ("Spain", "Italy", "India", "England", "Germany")
+temp = list(countries)
+temp.append("Russia")       #add item 
+temp.pop(3)                 #remove item
+temp[2] = "Finland"         #change item
+countries = tuple(temp)
+print(countries)
+OUTPUT:
+('Spain', 'Italy', 'Finland', 'Germany', 'Russia')
+57.The count() method of Tuple returns the number of times the given element appears in the tuple.
+EX1:
+Tuple1 = (0, 1, 2, 3, 2, 3, 1, 3, 2)
+res = Tuple1.count(3)
+print('Count of 3 in Tuple1 is:', res)
+OUTPUT:
+3
+58.The Index() method returns the first occurrence of the given element from the tuple.
+EX2:
+Tuple = (0, 1, 2, 3, 2, 3, 1, 3, 2)
+res = Tuple.index(3)
+print('First occurrence of 3 is', res)
+OUTPUT:
+3
+59.There are four types of arguments that we can provide in a function:
+Default Arguments
+Keyword Arguments
+Variable length Arguments
+Required Arguments
+a)Default arguments:
+We can provide a default value while creating a function. This way the function assumes a default value even if a value is not provided in the function call for that argument.
+EX1:
+def name(fname, mname = "Jhon", lname = "Whatson"):
+    print("Hello,", fname, mname, lname)
+
+name("Amy")
+OUTPUT:
+Hello, Amy Jhon Whatson
+b)Keyword arguments:
+We can provide arguments with key = value, this way the interpreter recognizes the arguments by the parameter name. Hence, the the order in which the arguments are passed does not matter.
+EX1:
+def name(fname, mname, lname):
+    print("Hello,", fname, mname, lname)
+
+name(mname = "Peter", lname = "Wesker", fname = "Jade")
+OUTPUT:
+Hello, Jade Peter Wesker
+c)Required arguments:
+In case we don’t pass the arguments with a key = value syntax, then it is necessary to pass the arguments in the correct positional order and the number of arguments passed should match with actual function definition.
+Example 1: when number of arguments passed does not match to the actual function definition.
+def name(fname, mname, lname):
+    print("Hello,", fname, mname, lname)
+
+name("Peter", "Quill")
+OUTPUT:
+name("Peter", "Quill")\
+TypeError: name() missing 1 required positional argument: 'lname'
+Example 2: when number of arguments passed matches to the actual function definition.
+def name(fname, mname, lname):
+    print("Hello,", fname, mname, lname)
+
+name("Peter", "Ego", "Quill")
+OUTPUT:
+Hello, Peter Ego Quill
+d)Variable-length arguments:
+Sometimes we may need to pass more arguments than those defined in the actual function. This can be done using variable-length arguments.
+
+There are two ways to achieve this:
+Arbitrary Arguments:
+While creating a function, pass a * before the parameter name while defining the function. The function accesses the arguments by processing them in the form of tuple.
+EX1:
+def name(*name):
+    print("Hello,", name[0], name[1], name[2])
+
+name("James", "Buchanan", "Barnes")
+OUTPUT:
+Hello, James Buchanan Barnes
+
+>)Keyword Arbitrary Arguments:
+While creating a function, pass a * before the parameter name while defining the function. The function accesses the arguments by processing them in the form of dictionary.
+EX1:
+def name(**name):
+    print("Hello,", name["fname"], name["mname"], name["lname"])
+
+name(mname = "Buchanan", lname = "Barnes", fname = "James")
+OUTPUT:
+Hello, James Buchanan Barnes
+e)return Statement
+The return statement is used to return the value of the expression back to the calling function.
+EX1:
+def name(fname, mname, lname):
+    return "Hello, " + fname + " " + mname + " " + lname
+
+print(name("James", "Buchanan", "Barnes"))
+OUTPUT:
+Hello, James Buchanan Barnes
+
+60.String formatting can be done in python using the format method.
+EX:txt = "For only {price:.2f} dollars!"
+print(txt.format(price = 49))
+
+61.It is a new string formatting mechanism introduced by the PEP 498. It is also known as Literal String Interpolation or more commonly as F-strings (f character preceding the string literal). The primary focus of this mechanism is to make the interpolation easier.
+When we prefix the string with the letter 'f', the string becomes the f-string itself. The f-string can be formatted in much same as the str.format() method. The f-string offers a convenient way to embed Python expression inside string literals for formatting.
+EX1:
+val = 'Geeks'  
+print(f"{val}for{val} is a portal for {val}.")  
+name = 'Tushar'  
+age = 23  
+print(f"Hello, My name is {name} and I'm {age} years old.")
+OUTPUT:
+Hello, My name is Tushar and I'm 23 years old.
+EX2:
+print(f"{2 * 30})"
+OUTPUT:
+60
+
+61.Python docstrings are the string literals that appear right after the definition of a function, method, class, or module. print(square.__doc__) to get doc in output.
+EX1:
+def square(n):
+    '''Takes in a number n, returns the square of n'''
+    print(n**2)
+square(5)
+Here,
+'''Takes in a number n, returns the square of n''' is a docstring which will not appear in output
+OUTPUT:
+25
+
+>)Here is another example:
+def add(num1, num2):
+    """
+    Add up two integer numbers.
+
+    This function simply wraps the ``+`` operator, and does not
+    do anything interesting, except for illustrating what
+    the docstring of a very simple function looks like.
+
+    Parameters
+    ----------
+    num1 : int
+        First number to add.
+    num2 : int
+        Second number to add.
+
+    Returns
+    -------
+    int
+        The sum of ``num1`` and ``num2``.
+
+    See Also
+    --------
+    subtract : Subtract one integer from another.
+
+    Examples
+    --------
+    >>> add(2, 2)
+    4
+    >>> add(25, 0)
+    25
+    >>> add(10, -10)
+    0
+    """
+    return num1 + num2
+
+62.PEP 8 is a document that provides guidelines and best practices on how to write Python code. It was written in 2001 by Guido van Rossum, Barry Warsaw, and Nick Coghlan. The primary focus of PEP 8 is to improve the readability and consistency of Python code.
+PEP stands for Python Enhancement Proposal, and there are several of them. A PEP is a document that describes new features proposed for Python and documents aspects of Python, like design and style, for the community.
+
+63.Recursion is the process of defining something in terms of itself.
+In Python, we know that a function can call other functions. It is even possible for the function to call itself. These types of construct are termed as recursive functions. (Like For Loop) repeadtly.
+EX1:
+def factorial(num): 
+    if (num == 1 or num == 0):
+        return 1
+    else:
+        return (num * factorial(num - 1)) 
+  
+# Driver Code 
+num = 7; 
+print("Number: ",num)
+print("Factorial: ",factorial(num))
+OUTPUT:
+number:  7
+Factorial:  5040
+
+63.Sets are unordered collection of data items. They store multiple items in a single variable. Set items are separated by commas and enclosed within curly brackets {}. Sets are unchangeable, meaning you cannot change items of the set once created. Sets do not contain duplicate items.
+EX1:
+info = {"Carla", 19, False, 5.9, 19}
+print(info)
+OUTPUT:
+{False, 19, 5.9, 'Carla'}
+
+You can access items of set using a for loop.
+EX1:
+info = {"Carla", 19, False, 5.9}
+for item in info:
+    print(item)
+OUTPUT:
+False
+Carla
+19
+5.9
+
+64.Sets in python more or less work in the same way as sets in mathematics. We can perform operations like union and intersection on the sets just like in mathematics.
+(i)
+a) union() and update():
+The union() and update() methods prints all items that are present in the two sets. The union() method returns a new set whereas update() method adds item into the existing set from another set.
+EX1:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+cities3 = cities.union(cities2)
+print(cities3)
+OUTPUT:
+{'Tokyo', 'Madrid', 'Kabul', 'Seoul', 'Berlin', 'Delhi'}
+
+.EX2:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+cities.update(cities2)
+print(cities)
+OUTPUT:
+{'Berlin', 'Madrid', 'Tokyo', 'Delhi', 'Kabul', 'Seoul'}
+
+b)intersection and intersection_update():
+The intersection() and intersection_update() methods prints only items that are similar to both the sets. The intersection() method returns a new set whereas intersection_update() method updates into the existing set from another set.
+EX1:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+cities3 = cities.intersection(cities2)
+print(cities3)
+OUTPUT:
+{'Madrid', 'Tokyo'}
+
+EX2:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+cities.intersection_update(cities2)
+print(cities)
+OUTPUT:
+{'Tokyo', 'Madrid'}
+
+c) symmetric_difference and symmetric_difference_update():
+The symmetric_difference() and symmetric_difference_update() methods prints only items that are not similar to both the sets. The symmetric_difference() method returns a new set whereas symmetric_difference_update() method updates into the existing set from another set.
+EX1:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+cities3 = cities.symmetric_difference(cities2)
+print(cities3)
+OUTPUT:
+{'Seoul', 'Kabul', 'Berlin', 'Delhi'}
+EX2:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+cities.symmetric_difference_update(cities2)
+print(cities)
+OUTPUT:
+{'Kabul', 'Delhi', 'Berlin', 'Seoul'}
+
+d) difference() and difference_update():
+The difference() and difference_update() methods prints only items that are only present in the original set and not in both the sets. The difference() method returns a new set whereas difference_update() method updates into the existing set from another set.
+EX1:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Seoul", "Kabul", "Delhi"}
+cities3 = cities.difference(cities2)
+print(cities3)
+OUTPUT:
+{'Tokyo', 'Madrid', 'Berlin'}
+
+EX2:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Seoul", "Kabul", "Delhi"}
+print(cities.difference(cities2))
+OUTPUT:
+{'Tokyo', 'Berlin', 'Madrid'}
+
+ ii There are several in-built methods used for the manipulation of set.They are explained below:
+a)isdisjoint():
+The isdisjoint() method checks if items of given set are present in another set. This method returns False if items are present, else it returns True.
+EX1:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+print(cities.isdisjoint(cities2))
+OUTPUT:
+False
+
+b)issuperset():
+The issuperset() method checks if all the items of a particular set are present in the original set. It returns True if all the items are present, else it returns False.
+EX1:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Seoul", "Kabul"}
+print(cities.issuperset(cities2))
+cities3 = {"Seoul", "Madrid","Kabul"}
+print(cities.issuperset(cities3))
+OUTPUT:
+False
+False
+
+c)issubset():
+The issubset() method checks if all the items of the original set are present in the particular set. It returns True if all the items are present, else it returns False.
+EX1:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Delhi", "Madrid"}
+print(cities2.issubset(cities))
+OUTPUT:
+True
+
+d)add():
+If you want to add a single item to the set use the add() method.
+EX1:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities.add("Helsinki")
+print(cities)
+OUTPUT:
+{'Tokyo', 'Helsinki', 'Madrid', 'Berlin', 'Delhi'}
+
+e)update():
+If you want to add more than one item, simply create another set or any other iterable object(list, tuple, dictionary), and use the update() method to add it into the existing set.
+EX1:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Helsinki", "Warsaw", "Seoul"}
+cities.update(cities2)
+print(cities)
+OUTPUT:
+{'Seoul', 'Berlin', 'Delhi', 'Tokyo', 'Warsaw', 'Helsinki', 'Madrid'}
+
+f)remove()/discard():
+We can use remove() and discard() methods to remove items form list.
+EX1:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities.remove("Tokyo")
+print(cities)
+OUTPUT:
+{'Delhi', 'Berlin', 'Madrid'}
+///
+The main difference between remove and discard is that, if we try to delete an item which is not present in set, then remove() raises an error, whereas discard() does not raise any error.
+EX2:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities.remove("Seoul")
+print(cities)
+OUTPUT:
+KeyError: 'Seoul'
+
+g)pop():
+This method removes the last item of the set but the catch is that we don’t know which item gets popped as sets are unordered. However, you can access the popped item if you assign the pop() method to a variable.
+EX1:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+item = cities.pop()
+print(cities)
+print(item)
+OUTPUT:
+{'Tokyo', 'Delhi', 'Berlin'} Madrid
+
+h)del:
+del is not a method, rather it is a keyword which deletes the set entirely.
+EX1:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+del cities
+print(cities)
+OUTPUT:
+NameError: name 'cities' is not defined We get an error because our entire set has been deleted and there is no variable called cities which contains a set.
+
+/////
+What if we don’t want to delete the entire set, we just want to delete all items within that set?
+
+e)clear():
+EX1:
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities.clear()
+print(cities)
+OUTPUT:
+set()
+
+f)Check if item exists
+You can also check if an item exists in the set or not.
+EX1:
+info = {"Carla", 19, False, 5.9}
+if "Carla" in info:
+    print("Carla is present.")
+else:
+    print("Carla is absent.")
+OUTPUT:
+Carla is present.
